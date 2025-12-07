@@ -31,4 +31,9 @@ public class BookController {
     public List<Book> findByAuthor(@PathVariable String author) {
         return bookService.findByAuthorWithEntityManagerHint(author);
     }
+
+    @GetMapping("/author-native/{author}")
+    public List<Book> findByAuthorNative(@PathVariable String author) {
+        return bookService.findByAuthorWithRepositoryNativeHint(author);
+    }
 }

@@ -36,4 +36,9 @@ public class BookService {
         query.setHint("org.hibernate.comment", "hint: EntityManager.findByAuthorWithEntityManagerHint");
         return query.getResultList();
     }
+
+    @Transactional(readOnly = true)
+    public List<Book> findByAuthorWithRepositoryNativeHint(String author) {
+        return bookRepository.findByAuthorNativeWithHint(author);
+    }
 }

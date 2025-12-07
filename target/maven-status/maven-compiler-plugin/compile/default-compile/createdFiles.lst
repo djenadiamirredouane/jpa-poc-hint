@@ -1,6 +1,0 @@
-com\example\hintjpademo\model\Book.class
-com\example\hintjpademo\config\DataInitializer.class
-com\example\hintjpademo\service\BookService.class
-com\example\hintjpademo\HintJpaDemoApplication.class
-com\example\hintjpademo\repository\BookRepository.class
-com\example\hintjpademo\web\BookController.class

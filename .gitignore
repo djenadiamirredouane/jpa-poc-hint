@@ -1,0 +1,23 @@
+# Maven and build
+/target/
+/build/
+/dist/
+/out/
+*.iml
+.idea/
+.classpath
+.project
+.settings/
+
+# OS-specific
+Thumbs.db
+.DS_Store
+*.swp
+
+# Logs
+*.log
+/logs/
+
+# H2 database files (if ever switched to file mode)
+*.h2.db
+*.mv.db
